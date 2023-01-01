@@ -4,5 +4,5 @@ echo;
 echo ' Starting CashFactory docker containers';
 echo;
 
-cd /root/CashFactory;
+cd /home/userland/CashFactory;
 docker-compose up -d;
