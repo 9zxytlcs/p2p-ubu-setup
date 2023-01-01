@@ -51,4 +51,7 @@ echo;
 sleep 1
 
 apt install neofetch
+
+echo >> .bashrc
 neofetch >> .bashrc
+echo >> .bashrc
