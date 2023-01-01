@@ -1,0 +1,8 @@
+#!/bin/sh
+
+echo;
+echo ' Starting CashFactory docker containers';
+echo;
+
+cd /home/ubuntu/CashFactory;
+docker-compose up -d;

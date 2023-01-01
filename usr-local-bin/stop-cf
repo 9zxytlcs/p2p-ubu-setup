@@ -1,0 +1,8 @@
+#!/bin/sh
+
+echo;
+echo '	Stoping CashFactory docker containers';
+echo;
+
+cd /home/ubuntu/CashFactory;
+docker-compose down;

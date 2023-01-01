@@ -1,0 +1,23 @@
+#!/bin/sh
+
+echo;
+
+echo  ' → 1. Ligar/desligar CashFactory'
+echo;
+echo '	cd CashFactory'
+echo;
+echo '	sudo docker-compose up -d'
+echo '	sudo docker-compose down'
+echo;
+echo '	...or sudo start-cf / stop-cf'
+echo;
+
+echo ' → 2. Start noip2'
+echo;
+echo '	sudo tinyproxy -d -c ./noip2.conf'
+echo;
+
+echo ' → 3. Start tinyproxy'
+echo;
+echo '	sudo noip2 -u 1 -u zhtailsc@gmail.com -p gagau999 -c ./tinyproxy.conf'
+echo;
