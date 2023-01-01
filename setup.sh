@@ -45,7 +45,7 @@ sleep 1
 cp p2p-ubu-setup/CashFactory CashFactory -f -R
 
 echo;
-echo …installing & putting neofetch to .bashrc
+echo …installing and placing neofetch to .bashrc
 echo;
 
 sleep 1
